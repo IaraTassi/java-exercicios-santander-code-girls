@@ -53,6 +53,9 @@ public class ControleFluxo {
                                                    if ( mes == 12) {
                                                        System.out.println("Dezembro");
                                                    }
+                                                   else {
+                                                       System.out.println("Mês indefinido");
+                                                   }
                                                }
                                            }
                                        }
@@ -161,7 +164,6 @@ public class ControleFluxo {
                 System.out.println(1);
                 break;
             default:
-                System.out.println(1);
                 System.out.println("Dia inválido");
                 break;
 
