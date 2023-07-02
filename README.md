@@ -1,10 +1,13 @@
 # Exercícios Java Santander Code Girls
-# Curso:  Variáveis, Tipos de Dados e Operadores Matemáticos em Java
+#### Curso: Variáveis, Tipos de Dados e Operadores Matemáticos em Java da DIO Santander Code Girls
+#### Curso: Entendendo Metódos Java da DIO Santander Code Girls
+#### Curso: Lógica Condicional e Controle de Fluxos em Java da DIO Santander Code Girls  
 
-Variáveis
-## Conceituação o que é uma variável? "Um espaço na memória do computador, onde se pode guardar valores."
 
-Existem 4 tipos
+### Variáveis; Conceituação o que é uma variável? "Um espaço na memória do computador, onde se pode guardar valores."
+
+
+##### Existem 4 tipos
 - Instância: objeto
 - Classe: classe
 - Local: local dentro de metódos
@@ -24,8 +27,7 @@ Convesões e regras
 - Sem espaços
 - Não podem ser as palavras reservadas do Java
 
-Tipos de dados
-## Conceituação tipos de dados? "São os valores e consequentemente operações que as variáveis podem assumir e sofrer, respectivamente."
+### Tipos de dados: Conceituação tipos de dados? "São os valores e consequentemente operações que as variáveis podem assumir e sofrer, respectivamente."
 
 Tipificação
 - Estâtica(forte) vs Dinâmica(fraco)
@@ -51,8 +53,7 @@ Exemplo Lógico
 - boolen true e false
 Exemplo de Objeto (vai ser visto em outra aula está e bem básica introdutória)
 
-Operadores Aritméticos
-## Conceituação "São símbolos especiais quais são capazes de realizar ações específicas em um, dois ou mais operandos e, em seguida retornar um resultado."
+### Operadores Aritméticos: Conceituação "São símbolos especiais quais são capazes de realizar ações específicas em um, dois ou mais operandos e, em seguida retornar um resultado."
 
 Tipos com precedência
 - Pós-fixado: exp++ ou exp-- (usa a expressão e depois soma ou subtrai)
@@ -61,17 +62,13 @@ Tipos com precedência
 - Aritmético Aditivo: +,-
 - Atribuição: =, +=, -=, *=, /=, %=
 
-Conversões (Casting)
-## Conceituação "É a transformação de uma determinada variável de tipo menos especifico para um tipo mais especifico ou vice versa."
+### Conversões (Casting): Conceituação "É a transformação de uma determinada variável de tipo menos especifico para um tipo mais especifico ou vice versa."
 
 Tipos
 - Upcast(implicíto) tipo menor para um menor é sempre permitido
 - Downcast(explicíto) tipo maior para um menor que se deve ter cuidado com a perda de dados, envolve uma verificação de tipo e pode gerar a ClassCastException
 
-# Curso Entendendo Métodos Java
-
-Metódo
-## Conceituação "É uma porção de código (sub-rotina) que é disponibilizada por uma classe. Este é executado quando é feito uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento."
+### Metódo: Conceituação "É uma porção de código (sub-rotina) que é disponibilizada por uma classe. Este é executado quando é feito uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento."
 
 Padrão de definição
 - Visibilidade: "public", "protected" e "private"
@@ -98,8 +95,7 @@ Boas Práticas
 - Evite lista de parâmetros longas
 - Visibilidades adequadas
 
-Sobrecargas
-## Conceituação "É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome. "
+### Sobrecargas: Conceituação "É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome. "
 O mesmo metódo vai se comportar de forma diferente ele mantém o mesmo nome, se muda a origem de parâmetros
 Alterar a assinatura do método: Ass = nome + parâmetros
 
@@ -115,6 +111,29 @@ Considerações
 - O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto
 - O tipo de dado do return deve ser compatível com o do método
 - Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execução
+
+### Operadores Lógicos: Conceituação "São simbolos especias quais são capazes de realizar comparações operações lógicas entre operandos lógicos ou expressões e, em seguida retornar um resultado."
+
+Similaridade
+- Igualdade ==
+- Diferença !=
+- Maior >
+- Maior igual >=
+- Menor <
+- Menor <=
+
+Tipos
+- Conjunção: && and(e) necessário que ambas comparações sejam true para true
+- Disjunção: || or(ou) basta uma das comparações ser true para true
+- Disjunção Exclusiva: ^ xor quando as comparações são inversas é true
+- Negação: ! inverte o resultado se false será tue ou vice versa
+
+Controle de fluxo
+- Decisão: if, if-else, if-else-if, swicth e operador ternário
+- Repetição: for, while e do while
+- Interrupção: breack, continue, return
+
+  
 
 
 
