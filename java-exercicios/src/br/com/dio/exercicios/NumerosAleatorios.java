@@ -1,4 +1,4 @@
-package br.com.dio.exercicos;
+package br.com.dio.exercicios;
 
 import java.util.Random;
 
