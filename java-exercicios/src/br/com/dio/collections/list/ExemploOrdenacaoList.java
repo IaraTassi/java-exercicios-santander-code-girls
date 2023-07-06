@@ -1,4 +1,4 @@
-package br.com.dio.collection;
+package br.com.dio.collections.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -36,7 +36,7 @@ public class ExemploOrdenacaoList {
         Collections.sort(meusGatos);
         System.out.println(meusGatos);
 
-        System.out.println("--\tOrdem iadde\t---");
+        System.out.println("--\tOrdem idade\t---");
         //Collections.sort(meusGatos, new ComparatorIdade()); //Posso usar a linha 40 ou a 41
         meusGatos.sort(new ComparatorIdade());
         System.out.println(meusGatos);

@@ -1,4 +1,4 @@
-package br.com.dio.collection;
+package br.com.dio.collections.map;
 
 import java.util.*;
 
@@ -9,7 +9,7 @@ Dada a população estimada de alguns estados do nordeste brasileiro, faça
  Estado = CE - população = 9.187.103
  Estado = RN - população = 3.534.265
  */
-public class ExercicioProposto4 {
+public class ExercicioProposto1 {
     public static void main(String[] args) {
 
         System.out.println("Crie um dicionário que relacione os estados e suas respectivas populações:");

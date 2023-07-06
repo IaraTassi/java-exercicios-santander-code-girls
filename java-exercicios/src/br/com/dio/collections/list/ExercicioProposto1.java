@@ -1,4 +1,4 @@
-package br.com.dio.collection;
+package br.com.dio.collections.list;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -10,10 +10,10 @@ Faça um programa que receba a temperatura média os 6 primeiros meses do ano e 
 Após isto, calcule a média semestral das temperaturas e mostre a stemperaturas acima
 e em que mês elas ocorreram (mostrar o mês por extenso: 1 - janeiro, 2 - Fevereiro e etc...
  */
-/*
 
+/*
 //primeira opção
-Exercício list
+//Exercício list
 public class ExercicioProposto1 {
 
     public static void main(String[] args) {
@@ -86,7 +86,7 @@ public class ExercicioProposto1 {
     }
 }
 
- */
+*/
 public class ExercicioProposto1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

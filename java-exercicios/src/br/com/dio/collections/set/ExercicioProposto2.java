@@ -1,4 +1,4 @@
-package br.com.dio.collection;
+package br.com.dio.collections.set;
 
 import java.util.*;
 
@@ -12,7 +12,7 @@ Em seguida, crie um conjunto com 3 linguagens e faça um programa que ordene ess
 - Nome, ano de criação e IDE
 Ao final, exiba as linguagens no console, um abaixo da outra
 */
-public class ExercicioProposto3 {
+public class ExercicioProposto2 {
 
     public static void main(String[] args) {
 

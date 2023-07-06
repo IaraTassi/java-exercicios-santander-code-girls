@@ -1,4 +1,4 @@
-package br.com.dio.collection;
+package br.com.dio.collections.map;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ import java.util.*;
 Faça um programa que simule um lançamento de dados. Lance o dado 100 vezes e armazene.
 Depois, mostre quantas vezes cada valor foi inserido.
  */
-public class ExercicioProposto5 {
+public class ExercicioProposto2 {
     public static void main(String[] args) {
 
         int quantidadeLancamentos = 100;

@@ -1,4 +1,4 @@
-package br.com.dio.collection;
+package br.com.dio.collections.map;
 
 /*
 Dadas as seguintes informações spbre meus livros favoritos e seus autores,

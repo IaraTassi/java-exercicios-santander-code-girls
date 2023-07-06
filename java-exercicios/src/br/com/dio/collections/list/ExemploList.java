@@ -1,4 +1,4 @@
-package br.com.dio.collection;
+package br.com.dio.collections.list;
 
 import java.util.ArrayList;
 import java.util.Collections;

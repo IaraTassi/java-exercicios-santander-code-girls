@@ -1,4 +1,4 @@
-package br.com.dio.collection;
+package br.com.dio.collections.set;
 
 import java.util.*;
 
@@ -14,7 +14,7 @@ Crie um conjunto contendo a scores do arco-íris e
 - Confira se o conjunto está vazio
 
  */
-public class ExercicioProposto2 {
+public class ExercicioProposto1 {
 
     public static void main(String[] args) {
         System.out.println("Crie uma conjunto contendo as cores do arco-íris: ");
