@@ -4,6 +4,7 @@
 #### Curso: Lógica Condicional e Controle de Fluxos em Java da DIO Santander Code Girls  
 #### Curso: Estruturas de Repetição e Arrays em Java
 #### Curso: Trabalhando com Collections Java
+#### Curso: Trabalhando com Collections Java
 
 
 ### Variáveis; Conceituação o que é uma variável? "Um espaço na memória do computador, onde se pode guardar valores."
