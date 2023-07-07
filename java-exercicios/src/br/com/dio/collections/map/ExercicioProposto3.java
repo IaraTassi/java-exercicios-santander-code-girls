@@ -60,7 +60,7 @@ public class ExercicioProposto3 {
         Set<Map.Entry<Integer, Contato>> set = new TreeSet<>(new ComparatorOrdemNumerica());
         set.addAll(agenda.entrySet());
         for (Map.Entry<Integer, Contato> entry: set) {
-            System.out.println(entry.getKey() + " - " + entry.getValue().getNome());
+            System.out.println(entry.getKey() + " - " + entry.getValue().getNumero() + ": " + entry.getValue().getNome());
         }
 
         System.out.println("\nOrdem nome contato: ");
